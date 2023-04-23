@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 01 - Juan Quijano</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <main class="contenedor">
+      <div class="formulario">
+        <p class="formulario__instruccion">Ingrese el texto aquí</p>
+        <textarea id="mensaje" placeholder="Ingresa el texto aquí"></textarea>
+        <p class="formulario__advertencia">
+          &#33; Solo letras minúsculas y sin acentos
+        </p>
+
+        <div class="botones">
+          <button id="encriptar" class="btn btn_encriptar">Encriptar</button>
+          <button id="desencriptar" class="btn btn_desencriptar">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div class="contenedor_resultado">
+          <p class="resultado" id="resultado">
+            Ningún mensaje fue encontrado
+            <br />
+            <br />
+            <span>Ingresa el texto que desees encriptar o desencriptar</span>
+          </p>
+        </div>
+
+        <button id="copiar" class="btn btn_copiar">Copiar</button>
+      </div>
+      
+    </main>
+
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
